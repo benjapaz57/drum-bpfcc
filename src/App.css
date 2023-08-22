@@ -1,0 +1,18 @@
+.container{
+  text-align: center;
+  margin: 100px;
+}
+.drum{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin: 50px auto;
+  width: min-content;
+}
+.drum-pad{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: 2px solid rgb(206, 25, 25);
+  border-radius: 3px 3px 3px 3px;
+}
